@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/*---------------------navbar css start
+#navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#n_left{
+    border: 1px solid black;
+    display: flex;
+    width: 16%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+#n_left i{
+    font-size: 22px;
+}
+#n_left img{
+    border: 1px solid black;
+    height: 45px
+}
+#n_right{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    align-items: center;
+    margin-right: 20px;
+}
+#n_right i{
+    font-size: 20px;
+}
+
+          navbar css end----------------------*/
+
+
+
+
+#poster-frame{
+    /* border: 2px solid red; */
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    /* z-index: 1; */
+    /* width: 86%; */
+    background-image: url(https://assets.interntheory.com/creative/Homepage-Banner.png);
+    /* background-position-x: center; */
+    /* background-position-y: center; */
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    min-height: 60vh;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 68px;
+    margin-right: auto;
+    margin-left: auto;
+    /* opacity: 1; */
+}
+#home-poster{
+    /* border: 2px solid yellow;    */
+    width: 100%;
+    height: 100%;
+    background: rgb(68, 100, 120);
+    opacity: 0.6;
+    position: absolute;
+    align-items: center;
+}
+.poster-box{
+    /* border: 2px solid red; */
+    background-color: #edfbff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+    padding: 20px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.poster-box input{
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    color: rgb(7, 7, 7);
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+.home-poster-details{
+    /* border: 1px solid blue; */
+    padding: 10px;
+    text-align: center;
+    width: 86%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.home-poster-details h5{
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.home-poster-details h5>span{
+    background-color: red;
+    padding: 2px 6px;
+    font-weight: 600;
+}
+.home-poster-details p{
+    /* padding: 10px; */
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.poster-box button{
+    padding: 8px 25px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.poster-box p{
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 13px;
+    color: black;
+}
+.search_div{
+    /* border: 1px solid black; */
+    padding: 10px;
+    /* background-color: rgb(212, 206, 206); */
+    background-color: #e7dfdf;
+}
+.poster-box input:hover{
+    border-bottom: 2px solid black;
+}
+
+
+/* -------------------------------opp div css ---------------------------------*/
+#opp-main{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 82%;
+    margin: auto;
+    margin-top: 50px;
+    column-gap: 15px;
+}
+#opp-main-left{
+    /* border: 1px solid black; */
+    width: 50%;
+    padding: 10px 10px 0 0;
+    margin-right: 20px;
+}
+#opp-main-left>div{
+    /* border: 1px solid black; */
+    margin-top: 120px;
+    margin-bottom: 20px;
+    padding: 10px 0px 10px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+}
+#opp-main-left h1{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+#opp-main-left span{
+    color: red;
+}
+#opp-main-left p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.87);
+}
+#opp-main-right{
+    /* border: 1px solid black; */
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 50%;
+    justify-content: center;
+}
+
+
+
+
+/*------------------------------- work experience ------------------------*/
+#work-exp{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#work-exp h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+}
+#work_exp_cont{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+#work_exp_cont a{
+    /* border: 1px solid yellow; */
+    background-color: #e4e2e3;
+    padding: 60px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+.work-exp-box>div{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.work-exp-box>div i{
+    font-size: 30px;
+    margin-right: 30px;
+}
+.work-exp-box>div p{
+    font-size: 20px;
+}
+#work-exp span{
+    color: #dd1f2d;
+}
+/*------------------------------- work experience end------------------------*/
+
+
+
+/*------------------------------- Upskilling ------------------------*/
+#ups_main{
+    background-color: #e4e2e3;
+    padding: 70px 30px;
+}
+#upskilling{
+    /* border: 1px solid black; */
+    display: grid;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+#upskilling h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+#upskilling h1 span{
+    color: red;
+}
+.upskilling-tab{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* column-gap: 10px; */
+    width: 100%;
+    text-align: center;
+}
+.upskilling-tab img{
+    height: 170px;
+}
