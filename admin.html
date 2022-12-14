@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin page</title>
+    <style>
+        #container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Add Course</h3>
+    <form action="form" id="form">
+        <label for="">Add Image Link</label>
+        <input type="text" id="image">
+        <label for="">Add Name</label>
+        <input type="text" id="name">
+        <label for="">Add Discription</label>
+        <input type="text" id="discription">
+        <label for="">Add Price</label>
+        <input type="text" id="price">
+        <input type="submit" value="Submit">
+
+    </form>
+    <h3>Edit Course</h3>
+    <div id="editform">
+        <label for="">Edit Image Link</label>
+        <input type="text" id="eimage" disabled>
+        <label for="">Edit Name</label>
+        <input type="text" id="ename" disabled>
+        <label for="">Edit Discription</label>
+        <input type="text" id="ediscription" disabled>
+        <label for="">Edit Price</label>
+        <input type="number" id="eprice" disabled>
+        <button id="edit" disabled>Submit</button>
+    </div>
+    <div id="container"></div>
+    
+</body>
+</html>
+<script src="admin.js"></script>
