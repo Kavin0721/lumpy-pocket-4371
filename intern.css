@@ -1,0 +1,21 @@
+
+#main{
+    background-color: #f8f6f6;
+   padding: 0 120px;
+}
+.row{
+    padding: 20px;
+}
+#ad-sec{
+    height: 240px !important;
+
+}
+
+
+.col,.col-3{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 2px 0px rgb(0 0 0 / 22%);
+    border-radius: 10px;
+
+}
