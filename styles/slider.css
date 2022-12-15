@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#slider_main{
+    border: 1px solid black;
+    width: 100%;
+}
+#slider{
+    border: 1px solid black;
+    /* height: 200px; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.slider-box{
+    border: 1px solid red;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    /* overflow: visible; */
+}
+.slider-box>div:first-child{
+    border: 2px solid yellow;
+    width: 100%;
+}
+.slider-box>div+div{
+    border: 2px solid yellow;
+    width: 100%;
+}
