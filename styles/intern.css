@@ -1,7 +1,7 @@
 
 #main{
     background-color: #f8f6f6;
-   padding: 0 120px;
+    margin: auto !important;
 }
 .row{
     padding: 20px;
@@ -18,4 +18,11 @@
     box-shadow: 0px 2px 2px 0px rgb(0 0 0 / 22%);
     border-radius: 10px;
 
+}
+.interncol img{
+    width: 150px;
+    height: 150px;
+}
+.interncol{
+    margin: 10px;
 }

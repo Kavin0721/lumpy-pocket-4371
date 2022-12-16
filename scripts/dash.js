@@ -1,23 +1,37 @@
 //the selected items will be contain in data-intern object 
 
-let iarr=JSON.parse(localStorage.getItem("data-intern"))||[];
-window.addEventListener("load",function(){
-  display(progData);
-});
+//Fetching data from localhost
+// const url="http://localhost:3000/courses";
+ 
+// let local=async ()=>{
+//     let res= await fetch(url)
+//     let data =await res.json();
+//      display(data);
+//     console.log(data);
+// }
+// local();
 
-function display(iarr){
+
+
+
+let data=JSON.parse(localStorage.getItem("Apply-list"))||[];
+window.addEventListener("load",function(){
+  display(data);
+});
+let x=0,y=0,z=0;
+function display(data){
     document.getElementById("prod").innerHTML=" ";
-    progData.forEach(function(elem,index){
+    data.forEach(function(ele,index){
         let div=document.createElement("div");
-        div.setAttribute("class","col")
+        div.setAttribute("class","col interncol")
         let img=document.createElement("img")
-        img.src// element's.image;
+        img.src=ele.Logo;
         let title =document.createElement("h4");
-        title.innerText //element's.name;
+        title.innerText=`${ele.Skill} from- ${ele.program}` //element's.name;
         let desc=document.createElement("p");
-        desc.innerText //element's.description;
+        desc.innerText=`${ele.duration},${ele.Mode},${ele.city}` //element's.description;
         let price=document.createElement("h5");
-        price.innerText //element's.price;
+        price.innerText=`₹${ele.pay} `//element's.price;
         
         let btn1=document.createElement("button");
         btn1.innerHTML="BACKOUT";
@@ -26,29 +40,32 @@ function display(iarr){
 
             Dele(index);
         });
-        let btn2=document.createElement("button");
-        btn2.innerHTML="PROCEED";
-        btn2.setAttribute("class","btn-outline-success");
-        btn2.addEventListener("click",function(){
         
-            Addi(elem,index);
-            Dele(index);
-        });
-        div.append(img,title,);
+        div.append(img,title,desc,price,btn1);
         document.getElementById("prod").append(div);
+        let amount=document.getElementById("amount");
+        x=x+(+(ele.pay));
+   amount.innerText=`₹${x}`
+   let gst=document.getElementById("gstpercent");
+   y=((x/100)*9);
+   gst.innerText=`₹${y}`;
+   let gst1=document.getElementById("gstpercent1");
+   z=((x/100)*9);
+   gst1.innerText=`₹${z}`;
+   let total=document.getElementById("total");
+   total.innerHTML=`₹${(x+y+z)}`;
+
     });
+   // displayig the RHS total-amount  
+   
  }
 
- let doneData=JSON.parse(localStorage.getItem("done-list"))||[];
+// Checkout code
 
-  function deleteprogfunc(index)
+  function Dele(index)
   {  
-        iarr.splice(index,1); 
-        localStorage.setItem("priority-list",JSON.stringify(iarr))
-        display(iarr);
+        data.splice(index,1); 
+        localStorage.setItem("priority-list",JSON.stringify(data))
+        display(data);
    }
-  function Addprogfunc(elem)
-  {
-        doneData.push(elem);
-        localStorage.setItem("done-list",JSON.stringify(doneData));
- }
+  
