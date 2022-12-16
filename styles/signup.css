@@ -277,11 +277,6 @@ input[type=text], input[type=password] {
     outline: none;
   }
   
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-  
   /* Set a style for all buttons */
   button {
     background-color: #04AA6D;
@@ -312,7 +307,7 @@ input[type=text], input[type=password] {
   
   /* Add padding to container elements */
   .container {
-    padding: 16px;
+    padding: 32px;
   }
   
   /* Clear floats */
@@ -328,6 +323,10 @@ input[type=text], input[type=password] {
       width: 100%;
     }
   }
+
+  /* label{
+    padding-left: 16px;
+  } */
 
 
 
