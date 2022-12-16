@@ -1,7 +1,11 @@
+import navbar from "../components/navbar.js"
+let navbars=document.getElementById("navbar")
+navbars.innerHTML=navbar()
+console.log(navbar())
 
 let form=document.getElementById("form")
 let data=JSON.parse(localStorage.getItem("course_data"))||[]
-form.onsubmit=(event)=>{
+form.onsubmit=async(event)=>{
     event.preventDefault()
     let image=document.getElementById("image").value
     let name=document.getElementById("name").value
@@ -10,6 +14,13 @@ form.onsubmit=(event)=>{
     let obj={image,name,discription,price}
     data.push(obj)
     //console.log(obj)
+    let res= await fetch("http://localhost:3000/admincourse",{
+        method:"POST",
+        body:JSON.stringify(obj),
+        headers:{
+            "Content-Type":"application/json"
+        }
+    })
     localStorage.setItem("course_data",JSON.stringify(data))
 
 }
@@ -21,7 +32,7 @@ let appendsdata=(data)=>{
 
     data.forEach(({image,name,discription,price}) => {
  
-        let div=document.createElement("duv")
+        let div=document.createElement("div")
         let i=document.createElement("img")
         i.src=image
         let n=document.createElement("p")
