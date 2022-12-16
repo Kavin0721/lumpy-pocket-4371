@@ -35,12 +35,15 @@
             <h6 class="jss280 jss298 jss307 jss303">OR</h6>
         </div>
         <form action="action_page.php" >
-            <div class="container">          
+            <div class="container">
+                <label for="email"><b>Full Name</b></label>
+                <input id="name" type="text" placeholder="Enter Full Name" name="Name" required>  
+                
               <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
+              <input id="email" type="text" placeholder="Enter Email" name="email" required>
           
               <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input id="password" type="password" placeholder="Enter Password" name="psw" required>
           
               <label for="psw-repeat"><b>Repeat Password</b></label>
               <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
@@ -52,11 +55,15 @@
               <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
           
               <div class="clearfix">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <button type="submit" class="signupbtn">Sign Up</button>
+                <!-- <button type="button" class="cancelbtn">Cancel</button> -->
+                <button id="post_data" type="submit" class="signupbtn">Sign Up</button>
               </div>
             </div>
         </form>
     </div>
 </body>
 </html>
+
+<script src="./scripts/signup.js"></script>
+
+<!-- fw21_0974 -->

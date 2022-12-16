@@ -492,5 +492,31 @@
       "price": 60,
       "id": 6
     }
+  ],
+  "users": [
+    {
+      "name": "Sugankumar Rajkumar",
+      "email": "sugankumar@amityonline.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Sugankumar Rajkumar",
+      "email": "sugankumar@amityonline.com",
+      "password": "112233",
+      "id": 2
+    },
+    {
+      "name": "Sugankumar Rajkumar",
+      "email": "sushmitharajkumar8@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Kavin",
+      "email": "sugan.0593@gmail.com",
+      "password": "1234567",
+      "id": 4
+    }
   ]
 }
