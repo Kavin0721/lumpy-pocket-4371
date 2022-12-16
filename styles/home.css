@@ -7,47 +7,6 @@
 
 
 
-
-/*---------------------navbar css start
-#navbar{
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-#n_left{
-    border: 1px solid black;
-    display: flex;
-    width: 16%;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #ffffff;
-    
-}
-#n_left i{
-    font-size: 22px;
-}
-#n_left img{
-    border: 1px solid black;
-    height: 45px
-}
-#n_right{
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-    width: 10%;
-    align-items: center;
-    margin-right: 20px;
-}
-#n_right i{
-    font-size: 20px;
-}
-
-          navbar css end----------------------*/
-
-
-
-
 #poster-frame{
     /* border: 2px solid red; */
     position: relative;
@@ -68,7 +27,7 @@
     -webkit-box-align: center;
     align-items: center;
     width: 100%;
-    margin-top: 68px;
+    margin-top: 62px;
     margin-right: auto;
     margin-left: auto;
     /* opacity: 1; */
@@ -293,4 +252,43 @@
 }
 .upskilling-tab img{
     height: 170px;
+}
+
+#growth{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+#growth div{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+#growth img{
+    height: 300px;
+}
+.growth-count{
+    padding: 15px;
+}
+.growth-count h1{
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin-bottom: 18px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.541);
+}
+.growth-count span{
+    color: #df1e2e;
+}
+.growth-count p{
+    text-align: justify;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #3c4858;
 }
