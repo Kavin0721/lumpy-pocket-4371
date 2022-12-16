@@ -1,23 +1,106 @@
+//Navbar import
+
+import navbar from "../components/navbar.js";
+import footer from "../components/footer.js";
+import sidebar from "../components/sidebar.js";
+
+const navbar_div = document.getElementById('navbar')
+navbar_div.innerHTML = navbar();
+
+const footer_div = document.getElementById('footer')
+footer_div.innerHTML = footer();
+
+const sidebar_div = document.getElementById('sidebar')
+sidebar_div.innerHTML = sidebar();
+
+
+
+
+
+/*--------------------------------------------- to hide and show the sidebar---------------------------------------------*/
+
+const humburger_menu = document.querySelector('#n_left>i')
+
+const sidebar_lines = document.querySelector('.sidebar-div-main>i')
+
+
+
+humburger_menu.onclick = () => {
+    sidebar_div.style.display = ''
+}
+
+sidebar_lines.onclick = () => {
+    sidebar_div.style.display = 'none';
+}
+/*--------------------------------------------- to hide and show the sidebar end ---------------------------------------------*/
+
+
+
+
+/*--------------------------------------------- down arrow ---------------------------------------------------------*/
+
+let angle_arrow_1 = document.querySelector('#sidebar-div-1 a+i')
+let angle_arrow_2 = document.querySelector('#sidebar-div-2 a+i')
+let angle_arrow_3 = document.querySelector('#sidebar-div-3 a+i')
+let drop_down_div_1 = document.querySelector('.sidebar-subdiv-1')
+let drop_down_div_2 = document.querySelector('.sidebar-subdiv-2')
+let drop_down_div_3 = document.querySelector('.sidebar-subdiv-3')
+
+
+angle_arrow_1.onclick = () => {
+    console.log('hello');
+    drop_down_div_1.style.display = drop_down_div_1.style.display === 'none' ? '' : 'none';
+}
+
+    angle_arrow_2.onclick = () => {
+        console.log('hie');
+        drop_down_div_2.style.display = drop_down_div_2.style.display === 'none' ? '' : 'none';
+    }
+
+    angle_arrow_3.onclick = () => {
+        console.log('hie');
+        drop_down_div_3.style.display = drop_down_div_3.style.display === 'none' ? '' : 'none';
+    }
+/*----------------------------------------------------- down arrow end -----------------------------------------------------*/
+
+
+
+
+
 //the selected items will be contain in data-intern object 
 
-let iarr=JSON.parse(localStorage.getItem("data-intern"))||[];
-window.addEventListener("load",function(){
-  display(progData);
-});
+//Fetching data from localhost
+// const url="http://localhost:3000/courses";
+ 
+// let local=async ()=>{
+//     let res= await fetch(url)
+//     let data =await res.json();
+//      display(data);
+//     console.log(data);
+// }
+// local();
 
-function display(iarr){
+
+
+
+let data=JSON.parse(localStorage.getItem("Apply-list"))||[];
+window.addEventListener("load",function(){
+  display(data);
+});
+let x=0,y=0,z=0;
+function display(data){
     document.getElementById("prod").innerHTML=" ";
-    progData.forEach(function(elem,index){
+    data.forEach(function(ele,index){
         let div=document.createElement("div");
-        div.setAttribute("class","col")
+        div.setAttribute("class","col interncol")
         let img=document.createElement("img")
-        img.src// element's.image;
+        img.src=ele.Logo;
         let title =document.createElement("h4");
-        title.innerText //element's.name;
+        title.innerText=`${ele.Skill} from- ${ele.program}` //element's.name;
         let desc=document.createElement("p");
-        desc.innerText //element's.description;
+        desc.innerText=`${ele.duration},${ele.Mode},${ele.city}` //element's.description;
         let price=document.createElement("h5");
-        price.innerText //element's.price;
+        price.innerText=`₹${ele.pay} `//element's.price;
         
         let btn1=document.createElement("button");
         btn1.innerHTML="BACKOUT";
@@ -26,29 +109,32 @@ function display(iarr){
 
             Dele(index);
         });
-        let btn2=document.createElement("button");
-        btn2.innerHTML="PROCEED";
-        btn2.setAttribute("class","btn-outline-success");
-        btn2.addEventListener("click",function(){
         
-            Addi(elem,index);
-            Dele(index);
-        });
-        div.append(img,title,);
+        div.append(img,title,desc,price,btn1);
         document.getElementById("prod").append(div);
+        let amount=document.getElementById("amount");
+        x=x+(+(ele.pay));
+   amount.innerText=`₹${x}`
+   let gst=document.getElementById("gstpercent");
+   y=((x/100)*9);
+   gst.innerText=`₹${y}`;
+   let gst1=document.getElementById("gstpercent1");
+   z=((x/100)*9);
+   gst1.innerText=`₹${z}`;
+   let total=document.getElementById("total");
+   total.innerHTML=`₹${(x+y+z)}`;
+
     });
+   // displayig the RHS total-amount  
+   
  }
 
- let doneData=JSON.parse(localStorage.getItem("done-list"))||[];
+// Checkout code
 
-  function deleteprogfunc(index)
+  function Dele(index)
   {  
-        iarr.splice(index,1); 
-        localStorage.setItem("priority-list",JSON.stringify(iarr))
-        display(iarr);
+        data.splice(index,1); 
+        localStorage.setItem("priority-list",JSON.stringify(data))
+        display(data);
    }
-  function Addprogfunc(elem)
-  {
-        doneData.push(elem);
-        localStorage.setItem("done-list",JSON.stringify(doneData));
- }
+  
