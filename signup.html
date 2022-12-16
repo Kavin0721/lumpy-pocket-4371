@@ -5,12 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="./styles/signup.css">
 </head>
 <body>
     <div id="table">
-        <h1>Register Candidate</h1>
-        <p>Already have an account? <button><a href="./login.html">Sign In</a> </button> </p>
+        <div class="sc-gzOgki nDPqG">
+            <div class="jss143 jss165">
+                <div class="jss144 jss183">
+                    <h5 class="jss280 jss296">Register Candidate</h5>
+                    <h6 class="jss280 jss298 jss307">Already have an account?
+                    <a class="jss246" href="./login.html">Sign in<span class="jss316"></span></a>
+                    </h6>
+                    <div class="sc-hwwEjo gmWiSy">
+                        <p class="jss280 jss288 jss307">If you are a company looking to hire interns, please register as a company by clicking  <a class="jss246"  href="./login.html">here<span class="jss316"></span></a>.</p>
+                    </div>
+                </div>
+                <div class="jss144 jss183">
+                    <a class="jss246 jss332 jss343 jss346 jss357" href="../facebook/redirect" style="padding: 8px; background: rgb(66, 103, 178); color: rgb(255, 255, 255);">
+                        <span class="jss333">
+                    <img class="sc-iyvyFf sOehi" src="/assets/iconsLogos/facebook-circular-logo.svg" height="25"> Register with Facebook</span><span class="jss316"></span></a>
+                </div>
+                <div class="jss144 jss183">
+                    <a class="jss246 jss332 jss343 jss344 jss346 jss347 jss357" href="../google/redirect" style="padding: 8px;"><span class="jss333">
+                    <img class="sc-iyvyFf sOehi" src="/assets/iconsLogos/googlelogo.svg" height="25"> Register with Google</span><span class="jss316"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="jss144 jss183">
+            <h6 class="jss280 jss298 jss307 jss303">OR</h6>
+        </div>
+        <form action="action_page.php" >
+            <div class="container">          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+          
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+        </form>
     </div>
 </body>
 </html>
