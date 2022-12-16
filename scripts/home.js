@@ -73,6 +73,97 @@ homeReturn.onclick = () => {
 
 
 
-/*--------------------------------------------------------slider------------------------------------------------------------------------------*/
-let slider_div = document.querySelectorAll('#slider')
-slider_div.forEach( )
+/*--------------------------------------------------------carousel------------------------------------------------------------------------------*/
+const slider_img = [
+    "https://assets.interntheory.com/img/testimonial-image/in4.jpg",
+    "https://assets.interntheory.com/img/testimonial-image/in3.jpg",
+    "https://assets.interntheory.com/img/testimonial-image/in2.jpg",
+    "https://assets.interntheory.com/img/testimonial-image/in1.jpg",
+  ];
+  
+  const slider_title = [
+    "Harshil Bhadra",
+    "Amani Nagda",
+    "Siddharth Viyyapu",
+    "Sshikha Bodwaani",
+  ];
+  
+  const slider_intern = [
+    "Intern at Porsche",
+    "Intern at Viacom18",
+    "Intern at Gooseberry Homes",
+    "Sr. Exec. HR at BookMyShow",
+  ];
+  
+  const slider_descp = [
+    '"If you are more than satisfied with a particular product/firm who gives you more than you expect then there’s no need to find a substitute. Its similar with Intern Theory, the best team who makes continuous efforts and always ready to help! Thanks for giving me the best start."',
+    '"I was on a look out for an internship to spend my summer productively and I stumbled upon Inter Theory. Their team was very kind and kept me updated. I applied for Viacom18 and got through. I thank Intern Theory team for giving me this opportunity."',
+    '"I created my profile because I had before Intern Theory, not come across a consultancy that would execute the responsibility of getting a result for your application irrespective of being failure or success the way they did. Theyve set the bars really high! Kudos team!"',
+    '"We have been using InternTheory for over a year now and are very happy with the quality of applications that we receive. Their team has been very helpful in screening applications for the various internship requirements we had. It has been a delight working with them."',
+  ];
+  
+  const slider_div = document.getElementById("slider");
+  
+  let i = 1;
+  
+  let main_div = document.createElement("div");
+  main_div.className = 'slider-box'
+  let sub_div_a = document.createElement("div");
+  sub_div_a.className = 'slider-intern-details'
+  let sub_div_b = document.createElement("div");
+  sub_div_b.className = 'slider-intern-lookout'
+  
+  let img = document.createElement("img");
+  img.src = slider_img[0];
+  
+  let title = document.createElement("h5");
+  title.innerText = slider_title[0];
+  
+  let resp = document.createElement("p");
+  resp.innerText = slider_intern[0];
+  
+  let desc = document.createElement("p");
+  desc.innerText = slider_descp[0];
+  
+  sub_div_a.append(img, title, resp);
+  sub_div_b.append(desc);
+  main_div.append(sub_div_a, sub_div_b);
+  slider_div.append(main_div)
+  
+  const carousel = () => {
+  
+    setInterval(() => {
+  
+      if (i === slider_img.length) {
+        i = 0;
+      }
+      slider_div.innerHTML = null;
+      let main_div = document.createElement("div");
+      let sub_div_a = document.createElement("div");
+      let sub_div_b = document.createElement("div");
+  
+      let img = document.createElement("img");
+      img.src = slider_img[i];
+  
+      let title = document.createElement("h5");
+      title.innerText = slider_title[i];
+  
+      let resp = document.createElement("p");
+      resp.innerText = slider_intern[i];
+  
+      let desc = document.createElement("p");
+      desc.innerText = slider_descp[i];
+  
+      sub_div_a.append(img, title, resp);
+      sub_div_b.append(desc);
+      main_div.append(sub_div_a, sub_div_b);
+      slider_div.append(main_div)
+      i++
+  
+    }, 4000);
+  };
+  
+  carousel();
+  
+/*--------------------------------------------------------carousel end------------------------------------------------------------------------------*/
+  
