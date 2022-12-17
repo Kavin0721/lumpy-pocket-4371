@@ -5,11 +5,11 @@ const sidebar = () => {
 </div>
 <div class="sidebar-div">
     <i class="fa-solid fa-house"></i>
-    <a href="">Home</a>
+    <a href="dashboard.html">Dashboard</a>
 </div>
 <div class="sidebar-div">
     <i class="fa-solid fa-user-secret"></i>
-    <a href="">Internship</a>
+    <a href="Internship.html">Internship</a>
 </div>
 <div class="sidebar-div">
     <i class="fa-solid fa-suitcase"></i>
@@ -38,7 +38,7 @@ const sidebar = () => {
     <a href="">Register</a>
     <i class="fa-solid fa-angle-down"></i>
     <div class="sidebar-subdiv-2" style="display: none">
-        <a href="">Company</a>
+        <div><a href="">Company</a></div>
         <a href="">Student</a>
     </div>
 </div>

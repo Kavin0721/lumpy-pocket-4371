@@ -42,7 +42,7 @@
     align-items: center;
 }
 .poster-box{
-    /* border: 2px solid red; */
+    border: 2px solid rgba(255, 0, 0, 0.778);
     background-color: #edfbff;
     display: flex;
     justify-content: space-evenly;
@@ -291,4 +291,17 @@
     line-height: 21px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     color: #3c4858;
+}
+
+
+/*------------------------------------------------------ media query---------------------------------------- */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+.poster-box{
+    display: block;
+}
+
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    
 }
