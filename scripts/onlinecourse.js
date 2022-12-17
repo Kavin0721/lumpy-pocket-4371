@@ -1,7 +1,10 @@
 
-import navbar from "./components/navbar.js"
+import navbar from "../components/navbar.js"
 let navbars=document.getElementById("navbar")
 navbars.innerHTML=navbar()
+import footer from "../components/footer.js"
+let footers=document.getElementById("footer")
+footers.innerHTML=footer()
 
 let getdata=async()=>{
     let res=await fetch("http://localhost:3000/admincourse")
@@ -48,4 +51,5 @@ let appendsdata=(data)=>{
        
     });
 }
+console.log("dheeraj")
 
