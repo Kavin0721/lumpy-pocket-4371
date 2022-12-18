@@ -64,3 +64,51 @@ div>p button{
 a{
     text-decoration: none;
 }
+
+#submit{
+    background-color: rgb(140, 140, 180);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.popup{
+    width: 400px;
+    background: gray;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: white;
+    transition-delay: 2s;
+    display: none;
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #4fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgda(0, 0, 0, 0.2);
+}
