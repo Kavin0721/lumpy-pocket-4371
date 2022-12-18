@@ -1,4 +1,5 @@
 
+
 import navbar from "../components/navbar.js"
 let navbars=document.getElementById("navbar")
 navbars.innerHTML=navbar()
