@@ -300,9 +300,18 @@ input[type=text], input[type=password] {
   }
   
   /* Float cancel and signup buttons and add an equal width */
-  .cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
+  .signupbtn:hover {
+    /* float: left; */
+    /* width: auto;
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center; */
+    background-color: #087CDD;
+    color: #ddd;
+    font-weight: bolder;
+    font-size: 30px;
   }
   
   /* Add padding to container elements */
@@ -324,9 +333,21 @@ input[type=text], input[type=password] {
     }
   }
 
-  /* label{
-    padding-left: 16px;
-  } */
+  .popup{
+    width: 400px;
+    background: gray;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: white;
+    transition-delay: 2s;
+    display: none;
+}
+
 
 
 
