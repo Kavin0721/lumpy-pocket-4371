@@ -30,6 +30,12 @@ humburger_menu.onclick = () => {
 sidebar_lines.onclick = () => {
     sidebar_div.style.display = 'none';
 }
+
+// document.onclick = (event) => {
+//   if(event.target  !== 'humburger_menu' && event.target  !== 'sidebar_lines'){
+//     sidebar_div.style.display = '';
+//   }
+// }
 /*--------------------------------------------- to hide and show the sidebar end ---------------------------------------------*/
 
 
@@ -167,3 +173,4 @@ const slider_img = [
   
 /*--------------------------------------------------------carousel end------------------------------------------------------------------------------*/
   
+

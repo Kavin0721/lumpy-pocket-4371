@@ -42,7 +42,7 @@
     align-items: center;
 }
 .poster-box{
-    /* border: 2px solid red; */
+    /* border: 2px solid rgba(255, 0, 0, 0.778); */
     background-color: #edfbff;
     display: flex;
     justify-content: space-evenly;
@@ -171,6 +171,7 @@
 
 /*------------------------------- work experience ------------------------*/
 #work-exp{
+    /* border: 1px solid black; */
     text-align: center;
     margin-top: 80px;
     margin-bottom: 80px;
@@ -238,6 +239,7 @@
     line-height: 47px;
     color: #000000;
     margin-bottom: 20px;
+    text-align: center;
 }
 #upskilling h1 span{
     color: red;
@@ -246,6 +248,7 @@
     /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     /* column-gap: 10px; */
     width: 100%;
     text-align: center;
@@ -291,4 +294,98 @@
     line-height: 21px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
     color: #3c4858;
+}
+
+
+/*------------------------------------------------------ media query---------------------------------------- */
+@media all and (min-width: 601px) and (max-width: 1024px) {
+    .poster-box{
+        display: block;
+    }
+    #opp-main{
+        /* border: 1px solid black; */
+        display: grid;
+        text-align: center;
+    }
+    #opp-main-left{
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 10px 10px 0 0;
+        /* margin-right: 20px; */
+    }
+    #opp-main-right{
+        /* border: 1px solid black; */
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+    #work_exp_cont{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .upskilling-tab{
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* column-gap: 10px; */
+        width: 100%;
+        text-align: center;
+    }
+    .upskilling-tab img{
+        height: 140px;
+    }
+}   
+
+@media all and (min-width: 0px) and (max-width: 600px) {
+    .poster-box{
+        display: none;
+    }
+    #opp-main{
+        /* border: 1px solid black; */
+        display: grid;
+        text-align: center;
+    }
+    #opp-main-left{
+        /* border: 1px solid black; */
+        width: 100%;
+        padding: 10px 10px 0 0;
+        /* margin-right: 20px; */
+    }
+    #opp-main-right{
+        /* border: 1px solid black; */
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+    #work_exp_cont{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .upskilling-tab{
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        /* column-gap: 10px; */
+        width: 100%;
+        text-align: center;
+    }
+    #growth{
+        /* border: 1px solid red; */
+        display: grid;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    #growth div{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
 }
