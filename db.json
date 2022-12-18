@@ -470,13 +470,6 @@
       "discription": "Sign up for this online tally and gst course and learn how t ...",
       "price": 75,
       "id": 4
-    },
-    {
-      "image": "https://assets.interntheory.com/creative/courses/thumbnails/android-app-development-kotlin-course.png",
-      "name": "Android App Development Using Kotlin Course",
-      "discription": "Learn the art of android app design and web development. Joi ...",
-      "price": 80,
-      "id": 5
     }
   ],
   "users": [
