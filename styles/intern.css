@@ -6,11 +6,41 @@
 .row{
     padding: 20px;
 }
-#ad-sec{
-    height: 240px !important;
-
+#top-filters{
+    display: grid;
+    grid-template-columns:200px 200px 200px 50px 400px ;
+    grid-template-rows: 50px;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center !important;
+    
 }
-
+#top-filters input,select {
+    background-color: #f8f6f6;
+    padding: 10px;
+border: none;
+border-bottom: 1px solid black;
+}
+#top-filters div{
+    padding: 10px;
+    display: grid;
+    background-color: #f8f6f6;
+    grid-template-columns: 250px 150px ;
+    grid-template-rows: 40px;
+    gap: 10px;
+    
+}
+#btnSearch{
+    
+    height: 40px;
+    background-color:#087cdd ;
+    color: white;
+    border: none;
+}
+#btnSearch:active, #btnSearch:hover{
+background-color:#bf1212;
+transform: translateY(5px);
+}
 
 .col,.col-3{
     background-color: white;
@@ -20,9 +50,19 @@
 
 }
 .interncol img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    
 }
 .interncol{
     margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 20px;
+    justify-content: center;
+}
+.Apply{
+    margin-left: 20px;
+    width: auto;
+    height: 40px;
 }

@@ -64,6 +64,14 @@ angle_arrow_1.onclick = () => {
 /*----------------------------------------------------- down arrow end -----------------------------------------------------*/
 
 
+/*------------------------------- redirecting tab -------------------------------*/
+
+const homeReturn = document.querySelector('#n_left>img')
+homeReturn.onclick = () => {
+    window.location.href = "index.html"
+}
+/*------------------------------- redirecting tab end-------------------------------*/
+
 
 
 
@@ -79,9 +87,20 @@ angle_arrow_1.onclick = () => {
 //     console.log(data);
 // }
 // local();
+// document.querySelector("#filter").addEventListener("change",PSort);
+// function PSort(){
+//   let selected=document.querySelector("#filter").value;
+  
+//   let filterlist=addedTask.filter(function(ele){
+//     return ele.pay==selected;
+//   });
+//   displaytable(filterlist);
+// }
+// document.getElementById("").addEventListener("change",function())
 
+// function filterHTL(){
 
-
+// }
 
 let data=JSON.parse(localStorage.getItem("Apply-list"))||[];
 window.addEventListener("load",function(){
@@ -95,22 +114,20 @@ function display(data){
         div.setAttribute("class","col interncol")
         let img=document.createElement("img")
         img.src=ele.Logo;
-        let title =document.createElement("h4");
-        title.innerText=`${ele.Skill} from- ${ele.program}` //element's.name;
-        let desc=document.createElement("p");
-        desc.innerText=`${ele.duration},${ele.Mode},${ele.city}` //element's.description;
-        let price=document.createElement("h5");
+        let title =document.createElement("h5");
+        title.innerText=ele.Skill//element's.name;
+        let price=document.createElement("p");
         price.innerText=`₹${ele.pay} `//element's.price;
         
         let btn1=document.createElement("button");
         btn1.innerHTML="BACKOUT";
-        btn1.setAttribute("class","btn btn-outline-danger");
+        btn1.setAttribute("class","btn backout btn-outline-danger");
         btn1.addEventListener("click",function(){
 
             Dele(index);
         });
         
-        div.append(img,title,desc,price,btn1);
+        div.append(img,title,price,btn1);
         document.getElementById("prod").append(div);
         let amount=document.getElementById("amount");
         x=x+(+(ele.pay));
@@ -134,7 +151,7 @@ function display(data){
   function Dele(index)
   {  
         data.splice(index,1); 
-        localStorage.setItem("priority-list",JSON.stringify(data))
+        localStorage.setItem("Apply-list",JSON.stringify(data))
         display(data);
    }
   
