@@ -5,7 +5,8 @@
 }
 #slider_main{
     /* border: 1px solid black; */
-    height: 300px;
+    /* height: 300px; */
+    padding: 100px 10px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -13,6 +14,15 @@
     background-color: #e4e2e3;
     margin-top: 30px;
 }
+/* #slider_main>i:first-child{
+    /*  border: 1px solid black;  */
+    /* float: left; 
+}
+#slider_main>i+i{
+    border: 1px solid black;
+    float: right;
+} */
+
 #slider{
     /* border: 1px solid black; */
     width: 80%;
@@ -32,9 +42,10 @@
     background-color: #ffffff;
 }
 #slider>div>div:first-child{
+    /* border: 1px solid red; */
     border-right: 1px solid rgba(128, 128, 128, 0.568);
     width: 30%;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
 }
 #slider>div>div:first-child > img{
@@ -45,12 +56,12 @@
 #slider>div>div:first-child > h5{
     color: rgba(0, 0, 0, 0.87);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 #slider>div>div:first-child > p{
-    font-weight: 800;
+    font-weight: 600;
     color: #087cdd;
     font-size: 12px;
     line-height: 20px;
@@ -59,11 +70,31 @@
 #slider>div>div+div{
     /* border: 1px solid blue; */
     width: 70%;
-    padding: 10px;
+    padding: 13px;
     color: #666666;
     font-weight: 400;
     font-style: italic;
     font-size: 13px;
     line-height: 20px;
     font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+@media all and (min-width: 0px) and (max-width: 600px) {
+    #slider>div>div:first-child{
+        /* border: 1px solid red; */
+        /* border-right: 1px solid rgba(128, 128, 128, 0.568); */
+        border: none;
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+    #slider > div{
+        /* border: 1px solid red; */
+        text-align: center;
+        width: 100%;
+        display: block; 
+    }
+    #slider>div>div+div{
+        /* border: 1px solid blue; */
+        width: 100%;
+    }
 }
