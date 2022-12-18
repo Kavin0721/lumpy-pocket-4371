@@ -1,5 +1,288 @@
 {
 
+  "Internships" :
+  [
+  
+      {
+        "Logo": "https://assets.interntheory.com/creative/logo.png",
+        "Skill": "Develop Your Skillset",
+        "program": "Online Skill Development Programs",
+        "Mode": "Taught by Industry Experts Internship",
+        "courses": "Certified Courses",
+        "city": "pune",
+        "pay": "3999" ,
+        "duration": "4-6 Weeks",
+        "imgurl": "https://www.interntheory.com/courses?utm_source=internshipslist&utm_medium=webpage",
+        "jss291": "Upgrade Skills",
+        "jss254 8": "imgurl",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/348ebc3e1dc80c206c4ac8af46f90db576813b9d.jpg",
+        "Skill": "Digital Marketing Analyst",
+        "program": "Fando Network",
+        "Mode": "Full Time Internship",
+        "courses": "digital marketing",
+        "city": "bangalore",
+        "pay": "15000",
+        "duration": "4 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/digital-marketing-internship-at-fando-network-di3zx",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/companylogos/62362fbf882221470f099d8d0a119df93ce19831/7e34b7356b30b3696d14fcab94c6e8989a42fd69com.jpg",
+        "Skill": "Marketing Ambassador  - Work from Home",
+        "program": "Laugh Out Loud Ventures",
+        "Mode": "Work From Home Internship",
+        "courses": "marketing",
+        "city": "delhi ",
+        "pay": "3000 ",
+        "duration": "4 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/marketing-internship-at-laugh-out-loud-ventures-mcc6w",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/companylogos/c22171e9ccc3eaa1f43a19d86be801e0341c4999/2f0c5644573472744e5586f69fb778f0959edfd7com.jpg",
+        "Skill": "Content Writer",
+        "program": "J K Diamonds Institute of Gems & Jewelry",
+        "Mode": "Full Time Internship",
+        "courses": "Education and Training",
+        "city": "mumbai",
+        "pay": "15000",
+        "duration": "4 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/education-and-training-internship-at-j-k-diamonds-institute-of-gems-jewelry-jyej4",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/6efdff45626352708533d4a6021e909ca9c33925.jpg",
+        "Skill": "Psychology Intern",
+        "program": "EkakiVedam Foundation",
+        "Mode": "Full Time,Part Time,Work From Home Internship",
+        "courses": "Psychology",
+        "city": "delhi ,",
+        "pay": "2000",
+        "duration": "3 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/psychology-internship-at-ekakivedam-foundation-9fu4i",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/47bea5aaf51cca0ed55002de9cb2bc3c050d3243.jpg",
+        "Skill": "Business Development (online sales for IT)",
+        "program": "AfterFirst Media",
+        "Mode": "Full Time Internship",
+        "courses": "business development",
+        "city": "ahmedabad",
+        "pay": "10000",
+        "duration": "3 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/business-development-internship-at-afterfirst-media-fos4p",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+  
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/47bea5aaf51cca0ed55002de9cb2bc3c050d3243.jpg",
+        "Skill": "Digital Marketing Interns needed",
+        "program": "AfterFirst Media",
+        "Mode": "Full Time Internship",
+        "courses": "digital marketing",
+        "city": "ahmedabad",
+        "pay": "10000",
+        "duration": "3 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/digital-marketing-internship-at-afterfirst-media-ksb1o",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/ffbfff5bac8dc226409e82cfa8227fac6006e342.jpg",
+        "Skill": "Social Media Intern",
+        "program": "GypsyMoth LLP",
+        "Mode": "Full Time Internship",
+        "courses": "advertising",
+        "city": "mumbai",
+        "pay": "10000",
+        "duration": "3 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/advertising-internship-at-gypsymoth-llp-nvwrs",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/7b122f8459f847f0ae7c5a6f902a748944675bf9.jpg",
+        "Skill": "Content intern",
+        "program": "Global Supply Chain Group",
+        "Mode": "Full Time Internship",
+        "courses": "content writing",
+        "city": "delhi ",
+        "pay": "10000",
+        "duration": "3 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/content-writing-internship-at-global-supply-chain-group-fjbuy",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/ce621fc8bc71e12c2356f869eb640cdee89ce235.jpg",
+        "Skill": "Digital Marketing Intern",
+        "program": "As Webworks",
+        "Mode": "Work From Home Internship",
+        "courses": "digital marketing",
+        "city": "pune",
+        "pay": "5000"  ,
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/digital-marketing-internship-at-as-webworks-gdbb3",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/c4b5507cf76626e428794195ca4ad5999913a027.jpg",
+        "Skill": "Graphic Intern",
+        "program": "Listed Fans",
+        "Mode": "Full Time Internship",
+        "courses": "graphic designing",
+        "city": "delhi",
+        "pay": "15000",
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/graphic-designing-internship-at-listed-fans-gtdsk",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/701f0ab731adf1b77a3c35409d2e02d026fcd645.jpg",
+        "Skill": "Customer Service",
+        "program": "Femina Flaunt",
+        "Mode": "Part Time Internship",
+        "courses": "customer relationship management",
+        "city": "mumbai",
+        "pay": "8000",
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/customer-relationship-management-internship-at-femina-flaunt-7mzf5",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+     
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/companylogos/62362fbf882221470f099d8d0a119df93ce19831/7e34b7356b30b3696d14fcab94c6e8989a42fd69com.jpg",
+        "Skill": "Human Resource Associate",
+        "program": "Laugh Out Loud Ventures",
+        "Mode": "Work From Home Internship",
+        "courses": "human resources",
+        "city": "mumbai,delhi,bangalore ,",
+        "pay": "1000 ",
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/human-resources-internship-at-laugh-out-loud-ventures-6d1cj",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+     
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/companylogos/ff1f92acc57c59e5fdad716afcdcd16957b5cacb/954070775ec488151cfc622d2328556f7055d075com.jpg",
+        "Skill": "Influencer Marketing Interns",
+        "program": "OutCry Entertainment",
+        "Mode": "Full Time Internship",
+        "courses": "marketing",
+        "city": "mumbai",
+        "pay": "5000",
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/marketing-internship-at-outcry-entertainment-xwocm",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/companylogos/ff1f92acc57c59e5fdad716afcdcd16957b5cacb/954070775ec488151cfc622d2328556f7055d075com.jpg",
+        "Skill": "Social Media Marketing Intern",
+        "program": "OutCry Entertainment",
+        "Mode": "Full Time Internship",
+        "courses": "marketing",
+        "city": "mumbai",
+        "pay": "5000 ",
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/marketing-internship-at-outcry-entertainment-boxhx",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/companylogos/ff1f92acc57c59e5fdad716afcdcd16957b5cacb/954070775ec488151cfc622d2328556f7055d075com.jpg",
+        "Skill": "Event Marketing & Sales intern",
+        "program": "OutCry Entertainment",
+        "Mode": "Full Time Internship",
+        "courses": "marketing",
+        "city": "mumbai",
+        "pay": "5000 ",
+        "duration": "2 weeks left",
+        "imgurl": "https://www.interntheory.com/internship/marketing-internship-at-outcry-entertainment-gxz8b",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/eab5f5e8e3caeb2ef8ae4dff8eb4e1de42044540.jpg",
+        "Skill": "BTL Activities",
+        "program": "Brandland Advertising pvt Ltd",
+        "Mode": "Full Time,Work From Home Internship",
+        "courses": "event management",
+        "city": "bangalore,kolkata",
+        "pay": "7000" ,
+        "duration": "1 week",
+        "imgurl": "https://www.interntheory.com/internship/event-management-internship-at-brandland-advertising-pvt-ltd-bntep",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+     
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/eab5f5e8e3caeb2ef8ae4dff8eb4e1de42044540.jpg",
+        "Skill": "Client Service Executive",
+        "program": "Brandland Advertising pvt Ltd",
+        "Mode": "Full Time,Work From Home Internship",
+        "courses": "advertising",
+        "city": "bangalore,kolkata",
+        "pay": "6000" ,
+        "duration": "1 week",
+        "imgurl": "https://www.interntheory.com/internship/advertising-internship-at-brandland-advertising-pvt-ltd-psdbl",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      },
+      {
+        "Logo": "https://assets.interntheory.com/uploads/company/logos/c1a506b5f34e8b8f63fb5f3912646ff1216b4a4e.jpg",
+        "Skill": "Operation Intern",
+        "program": "Maa Reva Vedic Food Research & Producer Co",
+        "Mode": "Full Time Internship",
+        "courses": "operations",
+        "city": "bhopal",
+        "pay": "3000" ,
+        "duration": "3 days left",
+        "imgurl": "https://www.interntheory.com/internship/operations-internship-at-maa-reva-vedic-food-research-producer-co-agz9h",
+        "jss291": "View And Apply",
+        "jss254 8": "Stipend:",
+        "jss98": "imgurl"
+      }
+     
+  
+    ],
+
   "courses": [
     {
       "Logo": "https://assets.interntheory.com/creative/logo.png",
