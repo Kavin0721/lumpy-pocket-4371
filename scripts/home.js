@@ -173,4 +173,9 @@ const slider_img = [
   
 /*--------------------------------------------------------carousel end------------------------------------------------------------------------------*/
   
+document.querySelector('#n_right>i:last-child').addEventListener('click',login);
 
+function login(){
+  console.log('function check')
+  window.location.href='login.html'
+}

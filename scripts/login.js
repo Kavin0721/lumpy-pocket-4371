@@ -59,6 +59,7 @@ if (count==1){
 }
 
 function save(){
+    // document.getElementById('main-table').style.filter='blur(10px)'
     let name=document.getElementById('name').value
     
     let container=document.querySelector('.popup');
@@ -122,4 +123,11 @@ function oks(){
 
     window.location.href='./index.html'
     
+}
+
+document.getElementById('table').addEventListener('click',redirect);
+
+function redirect(){
+    // console.log('function check')
+    window.location.href='./index.html';
 }

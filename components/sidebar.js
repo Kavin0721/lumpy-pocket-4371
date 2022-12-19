@@ -24,7 +24,7 @@ const sidebar = () => {
     <a href="">Courses </a>
     <i class="fa-solid fa-angle-down"></i>
     <div class="sidebar-subdiv-1" style="display: none;">
-        <a href="">Online Courses</a>
+        <a href="./onlinecourse.html">Online Courses</a>
         <a href="">Classroom Training</a>
     </div>
 </div>
