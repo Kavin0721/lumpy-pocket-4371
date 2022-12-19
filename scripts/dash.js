@@ -3,6 +3,7 @@
 import navbar from "../components/navbar.js";
 import footer from "../components/footer.js";
 import sidebar from "../components/sidebar.js";
+import payment from "../components/payment.js";
 
 const navbar_div = document.getElementById('navbar')
 navbar_div.innerHTML = navbar();
@@ -12,6 +13,9 @@ footer_div.innerHTML = footer();
 
 const sidebar_div = document.getElementById('sidebar')
 sidebar_div.innerHTML = sidebar();
+
+const payment_div = document.getElementById('payment')
+payment_div.innerHTML = payment();
 
 
 
@@ -154,4 +158,14 @@ function display(data){
         localStorage.setItem("Apply-list",JSON.stringify(data))
         display(data);
    }
+
+   document.querySelector('#n_right>i:last-child').addEventListener('click',login);
+
+function login(){
+  console.log('function check')
+  window.location.href='login.html'
+}
+
+// document.getElementById('main-cont').addEventListener('click',)
+
   

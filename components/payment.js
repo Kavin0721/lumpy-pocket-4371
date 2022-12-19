@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href='./styles/payment.css'>
-</head>
-<body>
-    <button id="checkout">Click Here</button>
-    <div class="popup" style="display: none;">
+export default (payment)=>{
+    return `
+    <div id="popup" class="popup" style="display: none;">
         <h1>Pay Via</h1>
         <button>CREDIT CARD</button>
         <button id="debit">DEBIT CARD</button>
@@ -20,12 +11,11 @@
     </div>
 
     <div id="card-areaa" class="card-area" style="display: none;">
-        <h2 id="card-area-titulo">Payment section:</h2>
 
         <form action="action_page.php">
             <div class="cartao cartao-front">
                 <div class="flex-area j-space-between a-items-center header-cartao a-items-start">
-                  <h3 style="white-space: nowrap">Debit card payment</h3>
+                  <h3 id="DebitFont" style="white-space: nowrap">Debit card payment</h3>
                 </div>
 
                 <label>
@@ -66,8 +56,5 @@
               </button>
             </div>
         </form>
-    </div>
-</body>
-</html>
-
-<script src="./scripts/payment.js"></script>
+    </div>`
+}

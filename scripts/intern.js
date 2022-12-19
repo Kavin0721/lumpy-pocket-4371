@@ -162,3 +162,10 @@ function displayJob(data){
     ApplyData.push(elem);
         localStorage.setItem("Apply-list",JSON.stringify(ApplyData));
  }
+
+ document.querySelector('#n_right>i:last-child').addEventListener('click',login);
+
+function login(){
+  console.log('function check')
+  window.location.href='login.html'
+}
