@@ -726,17 +726,10 @@
       "id": 1
     },
     {
-      "image": "https://assets.interntheory.com/creative/courses/thumbnails/data-analytics-r-programming-course.png",
-      "name": "Data Analytics With R Programming Course",
-      "discription": "Learn data science online. Join this online data analytics c ...",
-      "price": 100,
-      "id": 2
-    },
-    {
-      "image": "https://assets.interntheory.com/creative/courses/thumbnails/web-development-course.png",
+      "image": "\thttps://assets.interntheory.com/creative/courses/thumbnails/web-development-course.png",
       "name": "Web Development Course",
-      "discription": "Learn the art of web design and web development. Join this o ...",
-      "price": 75,
+      "discription": "hello",
+      "price": 1000,
       "id": 3
     },
     {
@@ -752,13 +745,6 @@
       "discription": "Learn the art of android app design and web development. Joi ...",
       "price": 80,
       "id": 5
-    },
-    {
-      "image": "https://assets.interntheory.com/creative/courses/thumbnails/advanced-excel-course.png",
-      "name": "Advanced Excel Course",
-      "discription": "Master MS Excel. Take the online ms excel course and learn t ..",
-      "price": 60,
-      "id": 6
     }
   ],
   "users": [

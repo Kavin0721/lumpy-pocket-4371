@@ -168,4 +168,20 @@ function login(){
 
 // document.getElementById('main-cont').addEventListener('click',)
 
-  
+const url="http://localhost:3000/users";
+
+let profileName = document.getElementById('profile-username')
+let profileEmail = document.getElementById('profile-email')
+
+
+  const userName = async () => {
+    let res = await fetch(`${url}`)
+    res = await res.json();
+    let name = res[res.length-1].name;
+    let email = res[res.length-1].email;
+    name = name.toUpperCase();
+    profileName.innerHTML = name;
+    profileEmail.innerHTML = email;
+  }
+
+  userName()
