@@ -270,17 +270,19 @@ nav .profile-details .admin_name {
   margin-bottom: 20px;
 }
 #data_div {
+  width: 100%;
   padding: 20px;
   margin: 20px;
   background-color: white;
 }
 
 table {
-  width: 100%;
   text-align: center;
   border-collapse: collapse;
   border: 1px solid #df1e2e;
 }
+
+
 
 th {
   background-color: #df1e2e;

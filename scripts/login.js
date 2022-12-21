@@ -38,6 +38,8 @@ data.forEach(function (el){
     if (email1==el.email && password1==el.password){
         count++
         
+    }else if(email1=='admin' && password1=='admin'){
+        
     }
 })
 

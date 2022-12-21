@@ -47,6 +47,20 @@ let drop_down_div_1 = document.querySelector('.sidebar-subdiv-1')
 let drop_down_div_2 = document.querySelector('.sidebar-subdiv-2')
 let drop_down_div_3 = document.querySelector('.sidebar-subdiv-3')
 
+angle_arrow_1.onclick = () => {
+    console.log('hello');
+    drop_down_div_1.style.display = drop_down_div_1.style.display === 'none' ? '' : 'none';
+}
+
+    angle_arrow_2.onclick = () => {
+        console.log('hie');
+        drop_down_div_2.style.display = drop_down_div_2.style.display === 'none' ? '' : 'none';
+    }
+
+    angle_arrow_3.onclick = () => {
+        console.log('hie');
+        drop_down_div_3.style.display = drop_down_div_3.style.display === 'none' ? '' : 'none';
+    }
 
 
 /*----------------------------------------------------- down arrow end -----------------------------------------------------*/
@@ -57,6 +71,11 @@ let drop_down_div_3 = document.querySelector('.sidebar-subdiv-3')
 const homeReturn = document.querySelector('#n_left>img')
 homeReturn.onclick = () => {
     window.location.href = "index.html"
+}
+
+const internLogo = document.querySelector('#n_right>i+i')
+internLogo.onclick = () => {
+  window.location.href = 'dashboard.html'
 }
 /*------------------------------- redirecting tab end-------------------------------*/
 

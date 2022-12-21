@@ -727,9 +727,9 @@
     },
     {
       "image": "\thttps://assets.interntheory.com/creative/courses/thumbnails/web-development-course.png",
-      "name": "Web Development Course",
-      "discription": "hello",
-      "price": 1000,
+      "name": "full stack web development",
+      "discription": "masai",
+      "price": 2000,
       "id": 3
     },
     {
@@ -740,10 +740,10 @@
       "id": 4
     },
     {
-      "image": "https://assets.interntheory.com/creative/courses/thumbnails/android-app-development-kotlin-course.png",
-      "name": "Android App Development Using Kotlin Course",
-      "discription": "Learn the art of android app design and web development. Joi ...",
-      "price": 80,
+      "image": "\thttps://assets.interntheory.com/creative/courses/thumbnails/tally-gst-course.png",
+      "name": "Web Development Course",
+      "discription": "masai school",
+      "price": 100000,
       "id": 5
     }
   ],
@@ -759,6 +759,13 @@
       "email": "sugankumar@amityonline.com",
       "password": "123456",
       "id": 5
+    },
+    {
+      "name": "somesh",
+      "email": "abc@gmail.com",
+      "password": "somesh",
+      "id": 6
     }
-  ]
+  ],
+  "admin":[]
 }

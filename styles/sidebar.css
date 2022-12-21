@@ -5,7 +5,7 @@
 }
 #sidebar{
     /* border: 1px solid black; */
-    width: 22%;
+    width: 300px;
     min-height: 100%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: fixed;
@@ -79,3 +79,13 @@
 .sidebar-div a+i{
     float: right;
 }
+
+
+/* @media all and (min-width: 901px) and (max-width: 1200px) {
+   
+}
+
+
+@media all and (min-width: 0px) and (max-width: 900px) {
+    
+} */

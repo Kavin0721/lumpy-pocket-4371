@@ -5,7 +5,7 @@ const navbar = () => {
 </div>
 <div id="n_right">
     <i class="fa-solid fa-bell"></i>
-    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-house"></i>
     <i class="fa-solid fa-user"></i>
 </div>`
 }

@@ -75,6 +75,12 @@ const homeReturn = document.querySelector('#n_left>img')
 homeReturn.onclick = () => {
     window.location.href = "index.html"
 }
+
+
+const internLogo = document.querySelector('#n_right>i+i')
+internLogo.onclick = () => {
+  window.location.href = 'dashboard.html'
+}
 /*------------------------------- redirecting tab end-------------------------------*/
 
 
@@ -179,3 +185,18 @@ function login(){
   console.log('function check')
   window.location.href='login.html'
 }
+
+
+
+/*-------------------------------------------------- Input box functionality -------------------------------------------------*/
+
+const url="http://localhost:3000/Internships";
+
+let srch = document.getElementById('searchBtnn')
+srch.onclick = async () => {
+  let data = srch.value;
+  let res = await fetch(`{url}?courses=${data}`)
+  res = await res.json()
+  
+}
+
