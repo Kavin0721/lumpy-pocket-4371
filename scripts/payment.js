@@ -1,6 +1,8 @@
 document.getElementById('checkout').addEventListener('click',checkout);
 
 function checkout(){
+    let list ="";
+    localStorage.setItem("Apply-list",JSON.stringify(list));
     console.log('function check')
     document.getElementById('main-cont').style.filter='blur(10px)'
     
