@@ -87,10 +87,10 @@ internLogo.onclick = () => {
 
 /*--------------------------------------------------------carousel------------------------------------------------------------------------------*/
 const slider_img = [
-    "https://assets.interntheory.com/img/testimonial-image/in4.jpg",
-    "https://assets.interntheory.com/img/testimonial-image/in3.jpg",
-    "https://assets.interntheory.com/img/testimonial-image/in2.jpg",
-    "https://assets.interntheory.com/img/testimonial-image/in1.jpg",
+    "./images/in4.jpg",
+    "./images/in3.jpg",
+    "./images/in2.jpg",
+    "./images/in1.jpg",
   ];
   
   const slider_title = [
