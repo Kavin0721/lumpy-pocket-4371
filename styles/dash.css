@@ -17,7 +17,7 @@
     
 }
 .col-3 button{
-    margin: 15px;
+    margin: 15px 0;
 }
 .col,.col-3{
     background-color: white;
@@ -51,4 +51,87 @@
 }
 #prod{
     margin-right: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 780px) {
+    .skill{
+        display: none;
+    }
+    .pay{
+        display:none;
+    }
+    #main-cont{
+        width: 300px !important;
+        padding: 50px 10px !important;
+    }
+    #profile-sec img{
+        height: 100px;
+        width:100px;
+    }
+    #profile-sec  {
+        width: 150px;
+        height:350px !important;  
+    }
+    #first{
+        padding: 10px !important;
+        font-size: 14px;
+        width: 110px !important;
+    }
+     #profile-sec button{
+        padding: 7px !important;
+        margin: 10px 0 0 0 !important;       
+        font-size: 14px!important;
+    }
+    .one{
+          padding: 10px 10px !important;
+    }
+    .two{
+        width: 360px !important;
+    }
+    .data1 div , .data2 div{
+        text-align: center;
+        height: 100px !important;
+        width: 100wh !important;
+    }
+    #checkout1{
+        width: 360px !important;
+    }
+    #checkout {
+        font-size: 14px !important;
+        margin: 10px  0  0 0 !important;
+        padding: 5px;
+        width: 90px !important;
+    }
+    
+    #prod{
+        width: 360px !important;;
+    }
+    .interncol{
+        display: grid;
+        grid-template-columns: 100px;
+        grid-template-rows: 100px 100px;
+    }
+    #prod{
+    grid-template-rows: 250px;
+    display: grid;
+    grid-template-columns: 142px;
+    }
+    .backout{
+        font-size: 12px;
+    }
+
+}
+/* Tablet responsive */
+@media screen and (min-width:781px) and (max-width:1200px){
+    .two{
+        width: 780px !important;
+    }
+    #checkout1{
+        width: 50% !important;
+    }
+    #profile-sec  {
+        height:400px !important;  
+    }
+    
 }

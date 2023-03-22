@@ -91,26 +91,50 @@ homeReturn.onclick = () => {
 //     console.log(data);
 // }
 // local();
-// document.querySelector("#filter").addEventListener("change",PSort);
-// function PSort(){
-//   let selected=document.querySelector("#filter").value;
-  
-//   let filterlist=addedTask.filter(function(ele){
-//     return ele.pay==selected;
-//   });
-//   displaytable(filterlist);
-// }
-// document.getElementById("").addEventListener("change",function())
+// document.querySelector("").addEventListener("change",PSort);
 
-// function filterHTL(){
 
-// }
 
 let data=JSON.parse(localStorage.getItem("Apply-list"))||[];
 window.addEventListener("load",function(){
   display(data);
 });
 let x=0,y=0,z=0;
+
+
+//filter function
+document.querySelector("#sort").addEventListener("change",Salarysort);
+
+  function Salarysort(){
+    let selected=document.querySelector("#sort").value;
+
+        if(selected == "Low-to-High") {
+        data.sort(function(x,y){
+
+          if(x.pay > y.pay) return -1;
+          if(x.pay < y.pay) return 1;
+          return 0;
+        });
+        display(data);
+        }
+        if(selected == "High-to-Low") {
+        data.sort(function(x,y){
+          if(x.pay > y.pay) return 1;
+          if(x.pay < y.pay) return -1;
+          return 0;
+        });
+        display(data)
+        }
+        if(selected == "All") {
+          display(data)
+        }
+  }
+
+
+
+
+
+
 function display(data){
     document.getElementById("prod").innerHTML=" ";
     data.forEach(function(ele,index){
@@ -120,8 +144,10 @@ function display(data){
         img.src=ele.Logo;
         let title =document.createElement("h5");
         title.innerText=ele.Skill//element's.name;
+        title.setAttribute("class","skill")
         let price=document.createElement("p");
         price.innerText=`₹${ele.pay} `//element's.price;
+        price.setAttribute("class","pay")
         
         let btn1=document.createElement("button");
         btn1.innerHTML="BACKOUT";
@@ -135,15 +161,17 @@ function display(data){
         document.getElementById("prod").append(div);
         let amount=document.getElementById("amount");
         x=x+(+(ele.pay));
-   amount.innerText=`₹${x}`
+   amount.innerText=`₹ ${x}`
    let gst=document.getElementById("gstpercent");
    y=((x/100)*9);
-   gst.innerText=`₹${y}`;
+   gst.innerText=`₹ ${y}`;
    let gst1=document.getElementById("gstpercent1");
    z=((x/100)*9);
-   gst1.innerText=`₹${z}`;
-   let total=document.getElementById("total");
-   total.innerHTML=`₹${(x+y+z)}`;
+   gst1.innerText=`₹ ${z}`;
+   let total=Math.floor((x+y+z));
+   
+   let newtot = document.getElementById("total");
+   newtot.innerHTML="₹ "+total;
 
     });
    // displayig the RHS total-amount  
